@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(96, 231, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .search {
+    width: 100%;
+    text-align: center;
+}
+.container .search > input {
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+}
+.container .search > button {
+    padding: 7px 12px;
+    background-color: green;
+    color: white;
+    font-size: 22px;
+    height: 50px;
+}
+.container .search > input::placeholder {
+    color: black;
+}
+.info {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.city h1 {
+    font-size: 45px;
+}
+.wind {
+    display: flex;
+    justify-content: space-around;
+}

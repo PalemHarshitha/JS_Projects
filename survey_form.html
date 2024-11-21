@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_Form</title>
+    <style>
+        h1{
+            display:flex;
+            justify-content: center;
+        }
+        legend{
+            background-image: linear-gradient(95deg,red,blue,orange);
+            border:2px solid black;
+            border-radius: 7px 0px 7px 2px;
+        }
+        body{
+            background-color:papayawhip;
+        }
+        form{
+            background-color:pink;
+            width: 800px;
+            height: 700px;
+            margin: 50px auto;
+            border:2px solid black;
+            border-radius: 10px 10px 10px 10px;
+        }
+        button{
+            background-color: #fff;
+            color:black;
+            display: flex;
+            align-items: center;
+            float: right;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 align="center">SURVEY FORM</h1>
+   <form>
+    <fieldset>
+        <legend>Survey form</legend>
+        <table>
+            <tr>
+                <td>
+                    <label>Name:</label>
+                    <input type="text" placeholder="Enter Your Name"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email:</label>
+                    <input type="mail" placeholder="Enter Your email"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Age:</label>
+                    <input type="number" placeholder="Enter Your Age"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Which option best describes you?</label><br>
+                    <select>
+                        <option>Student</option>
+                        <option>Intern</option>
+                        <option>Proffessional</option>
+                        <option>Others</option>
+                    </select><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Would You like to join our company</label><br>
+                    <input type="radio">YES<br>
+                    <input type="radio">NO<br>
+                    <input type="radio">MAYBE<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Languagges and FrameWorks known?</label>
+                    <input type="checkbox">c<br>
+                    <input type="checkbox">c++<br>
+                    <input type="checkbox">c#<br>
+                    <input type="checkbox">java<br>
+                    <input type="checkbox">python<br>
+                    <input type="checkbox">javascript<br>
+                    <input type="checkbox">React<br>
+                    <input type="checkbox">Angular<br>
+                    <input type="checkbox">Djange<br>
+                    <input type="checkbox">Spring<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Any comments or suggetions</label><br>
+                    <textarea rows="5" cols="15"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <button>Submit</button>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+   </form>
+
+</body>
+</html>
